@@ -1,3 +1,3 @@
 # Pneumonia Detection
 Get the dataset from:
-[dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+[Kaggle Pneumonia Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
