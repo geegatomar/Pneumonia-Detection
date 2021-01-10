@@ -1,0 +1,8 @@
+*.png
+*.jpg
+*.jpeg
+*.hdf5
+*.json
+*.pickle
+*.model
+*.csv
