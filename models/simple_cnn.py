@@ -1,7 +1,9 @@
-from ..config import lung_config as config
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Conv2D, Flatten, MaxPooling2D
+from ..models.config import lung_config as config
 from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
+from tensorflow.keras.layers import Dense, Conv2D, Flatten, MaxPooling2D
+from tensorflow.keras.models import Sequential
+
+# Problem: Not able to import config file
 
 img_width = config.IMG_WIDTH
 img_height = config.IMG_HEIGHT
