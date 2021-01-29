@@ -1,9 +1,6 @@
 # import the necessary packages
 from os import path
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-import cv2
+
 
 
 # define the base path to the pneumonia dataset

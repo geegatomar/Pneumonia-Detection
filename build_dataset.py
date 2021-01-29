@@ -46,17 +46,17 @@ valid = test_data_gen.flow_from_directory(
 )
 
 
-print(train)
+# print(train)
 
-plt.figure(figsize=(12, 12))
-for i in range(0, 10):
-    plt.subplot(2, 5, i+1)
-    for X_batch, Y_batch in train:
-        image = X_batch[0]
-        dic = {0: 'NORMAL', 1: 'PNEUMONIA'}
-        plt.title(dic.get(Y_batch[0]))
-        plt.axis('off')
-        plt.imshow(np.squeeze(image), cmap='gray', interpolation='nearest')
-        break
-plt.tight_layout()
-plt.show()
+# plt.figure(figsize=(12, 12))
+# for i in range(0, 10):
+#     plt.subplot(2, 5, i+1)
+#     for X_batch, Y_batch in train:
+#         image = X_batch[0]
+#         dic = {0: 'NORMAL', 1: 'PNEUMONIA'}
+#         plt.title(dic.get(Y_batch[0]))
+#         plt.axis('off')
+#         plt.imshow(np.squeeze(image), cmap='gray', interpolation='nearest')
+#         break
+# plt.tight_layout()
+# plt.show()
