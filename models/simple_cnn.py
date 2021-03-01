@@ -1,4 +1,4 @@
-from ..models.config import lung_config as config
+from ..models.config import lung_config as confi
 from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 from tensorflow.keras.layers import Dense, Conv2D, Flatten, MaxPooling2D
 from tensorflow.keras.models import Sequential
