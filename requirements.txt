@@ -1,4 +1,14 @@
+Flask
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
 numpy
-keras
+scipy
+scikit-learn
+matplotlib
+pandas
+flasgger
 tensorflow
 streamlit
