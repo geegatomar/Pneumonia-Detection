@@ -1,8 +1,2 @@
-numpy>=1.9.2
-scipy>=0.15.1
-scikit-learn==0.22.1
-matplotlib>=1.4.3
-pandas>=0.19
-tensorflow==2.4.1
-keras
-streamlit
+streamlit==0.77.0
+tensorflow-cpu==2.4.1
