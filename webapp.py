@@ -20,7 +20,7 @@ def loading_model():
 cnn = loading_model()
 st.write("""
 # X-Ray Classification [Pneumonia / Normal]
-by Shivangi,TanmayShreeya,Rakshita
+by ACM-NITK: Shivangi, Tanmay, Shreeya, Rakshita
 """)
 
 
